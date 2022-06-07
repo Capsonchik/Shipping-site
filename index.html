@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shippin Site</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Montserrat:wght@400;500;700&family=Roboto:wght@300;400;900&display=swap" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <script src="https://kit.fontawesome.com/44b9d2e06a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class='header'>
+        <div class="container">
+            <div class="header__top">
+                <div class="logo">
+                    <img src="./img/logo.png" alt="logo">
+                </div>
+                <nav class='header__nav'>
+                    <ul class='nav__block'>
+                        <li class='nav__link'>Главная</li>
+                        <li class='nav__link'>Описание</li>
+                        <li class='nav__link'>Преимущества</li>
+                        <li class='nav__link'>Отзывы</li>
+                        <li class='nav__link'>Партнеры</li>
+                        <li class='nav__link'>Гарантии</li>
+                        <li class='nav__link'>FAQ</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="header__content">
+                <h1 class="header__content-h1">Придумайте что отправить</h1>
+                <p class="header__content-p">А посылка доедет сама</p>
+                <button class="header__content-btn">Отправить посылку</button>
+            </div>
+        </div>
+    </header>
+    <section class='about-us'>
+        <div class="container">
+            <div class="about-us__block">
+                <div class="about-us__img">
+                    <img src="./img/partners.png" alt="partners">
+                </div>
+                <div class="about-us__content">
+                    <h1 class="about-us__h1">Мы – агрегатор служб доставки</h1>
+                    <p class="about-us__p">С нами удобно вам, вашим клиентам и курьерским службам.
+                        Для вас наши услуги бесплатны, так как мы получаем бонусы от служб доставок за предоставленный объем заказов, а вы получаете надежный сервис в подарок!</p>
+                    <button class="about-us__btn">Отправить посылку</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='steps'>
+        <div class="container steps__box">
+            <div class="steps__item">
+                <img src="./img/step1.png" alt="step1">
+                <div class="steps__item-name">Шаг 1</div>
+                <div class="steps__item-text">Придумайте что и кому отправить</div>
+            </div>
+            <div class="steps__item">
+                <img src="./img/step2.png" alt="step2">
+                <div class="steps__item-name">Шаг 2</div>
+                <div class="steps__item-text">Создайте заявку на сайте SendIt - Ваш персональный менеджер позвонит и подтвердит запрос, уточнит все необходимые данные</div>
+            </div>
+            <div class="steps__item">
+                <img src="./img/step3.png" alt="step3">
+                <div class="steps__item-name">Шаг 3</div>
+                <div class="steps__item-text">К Вам приезжает курьер, забирает посылку, Вы подписываете один документ</div>
+            </div>
+            <div class="steps__item">
+                <img src="./img/step4.png" alt="step4">
+                <div class="steps__item-name">Шаг 4</div>
+                <div class="steps__item-text">Вы ждёте подтверждения доставки, слова радости и благодарности от адресата :)</div>
+            </div>
+        </div>
+    </section>
+    <section class='send'>
+        <div class="container send__box">
+            <h2 class='send__header'>Мы берем все заботы по доставке на себя!</h2>
+            <button class='send__btn'>отпарвить посылку</button>
+        </div>
+    </section>
+    <section class='call-us'>
+        <div class="container call-us__box">
+            <div class="call-us__text">
+                <h2 class='call-us__text-h2'>Хотите мы вам перезвоним?</h2>
+                <p class='call-us__text-p'>Закажите звонок мы вам перезвоним</p>
+            </div>
+            <div class="call-us__form">
+                <input class='call-us__form-input' type="text" placeholder="Ваш телефон">
+                <button class='call-us__form-btn' type='submit'>Заказать звонок</button>
+                <label class='call-us__form-label' for="aply">
+                    <input class='call-us__form-check' type="checkbox" name="aply" id="aply">
+                    Я согласен на обработку персональных данных
+                </label>
+            </div>
+        </div>
+    </section>
+    <section class='reviews'>
+        <div class="container">
+            <h2 class='reviews__header'>Отзывы</h2>
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <div class="reviews__item-block">
+                        <div class="reviews__item-block-main">
+                            <img class='item-block-main__photo' src="./img/dasha.jpg" alt="photo">
+                            <div class="item-block-main__text">
+                                <p class="text__name">Дарья</p>
+                                <p class="text__company">La Intuicion</p>
+                                <p class="text__ship">Посылка: товары</p>
+                                <p class="text__city">Откуда: Москва</p>
+                                <p class="text__where">Куда: Нижневартовск</p>
+                            </div>
+                        </div>
+                        <div class="reviews__item-block-text">
+                            <p>Отличный и качественный сервис.
+                                Долго искали курьерскую службу для доставки наших товаров. Решили попробовать и были приятно удивлены, что помимо удобного сайта, компания предоставляет доступ в личный кабинет, где реализованы многие наши потребности (ведение адресной базы, выбор и вызов курьера в пару кликов).</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="reviews__item-block">
+                        <div class="reviews__item-block-main">
+                            <img class='item-block-main__photo' src="./img/dasha.jpg" alt="photo">
+                            <div class="item-block-main__text">
+                                <p class="text__name">Дарья</p>
+                                <p class="text__company">La Intuicion</p>
+                                <p class="text__ship">Посылка: товары</p>
+                                <p class="text__city">Откуда: Москва</p>
+                                <p class="text__where">Куда: Нижневартовск</p>
+                            </div>
+                        </div>
+                        <div class="reviews__item-block-text">
+                            <p>Отличный и качественный сервис.
+                                Долго искали курьерскую службу для доставки наших товаров. Решили попробовать и были приятно удивлены, что помимо удобного сайта, компания предоставляет доступ в личный кабинет, где реализованы многие наши потребности (ведение адресной базы, выбор и вызов курьера в пару кликов).</p>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide">
+                    <div class="reviews__item-block">
+                        <div class="reviews__item-block-main">
+                            <img class='item-block-main__photo' src="./img/dasha.jpg" alt="photo">
+                            <div class="item-block-main__text">
+                                <p class="text__name">Дарья</p>
+                                <p class="text__company">La Intuicion</p>
+                                <p class="text__ship">Посылка: товары</p>
+                                <p class="text__city">Откуда: Москва</p>
+                                <p class="text__where">Куда: Нижневартовск</p>
+                            </div>
+                        </div>
+                        <div class="reviews__item-block-text">
+                            <p>Отличный и качественный сервис.
+                                Долго искали курьерскую службу для доставки наших товаров. Решили попробовать и были приятно удивлены, что помимо удобного сайта, компания предоставляет доступ в личный кабинет, где реализованы многие наши потребности (ведение адресной базы, выбор и вызов курьера в пару кликов).</p>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>  
+            </div>
+        </div>
+    </section>
+    <section class='advantages'>
+        <div class="container">
+            <h2 class='advantages__header'>Наши преимущества</h2>
+            <div class="advantages__items">
+                <div class="advantages__item">
+                    <div class="item__logo">
+                        <img src="./img/icons/free.png" alt="free">
+                    </div>
+                    <p class='item__text'>Беспалтный сервис</p>
+                </div>
+                <div class="advantages__item">
+                    <div class="item__logo">
+                        <img src="./img/icons/planchet.png" alt="free">
+                    </div>
+                    <p class='item__text'>Огромный выбор вариантов доставки</p>
+                </div>
+                <div class="advantages__item">
+                    <div class="item__logo">
+                        <img src="./img/icons/star.png" alt="free">
+                    </div>
+                    <p class='item__text'>4 параметра лучшего предложения</p>
+                </div>
+                <div class="advantages__item">
+                    <div class="item__logo">
+                        <img src="./img/icons/hand.png" alt="free">
+                    </div>
+                    <p class='item__text'>Удобство заказа</p>
+                </div>
+                <div class="advantages__item">
+                    <div class="item__logo">
+                        <img src="./img/icons/people.png" alt="free">
+                    </div>
+                    <p class='item__text'>Online - поддержка</p>
+                </div>
+                <div class="advantages__item">
+                    <div class="item__logo">
+                        <img src="./img/icons/scan.png" alt="free">
+                    </div>
+                    <p class='item__text'>Единый номер отслеживания</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='guarantees'>
+        <div class="container">
+            <h2 class='guarantees__header'>Наши гарантии</h2>
+            <div class="guarantees__items">
+                <div class="guarantees__item">
+                    <div class="guarantees__item-img">
+                        <img src="./img/guarantees/guarantees1.png" alt="#">
+                    </div>
+                    <p class='guarantees__item-header'>Страховка отправлений</p>
+                    <p class='guarantees__item-text'>Контроль работы курьеров в онлайн режиме. Страхование по запросу клиента Каждый куръер находится под пристальным вниманием менеджеров SendIt</p>
+                    <button class='guarantees__item-btn'>Подробнее</button>
+                </div>
+                <div class="guarantees__item">
+                    <div class="guarantees__item-img">
+                        <img src="./img/guarantees/guarantees1.png" alt="#">
+                    </div>
+                    <p class='guarantees__item-header'>Прозрачность расчетов</p>
+                    <p class='guarantees__item-text'>Чтобы узнать точную стоимость отправления вам не нужно связываться с каждой курьерской службой в отдельности и сравнивать полученные предложения, просто воспользуйтесь нашим сервисом. </p>
+                    <button class='guarantees__item-btn'>Подробнее</button>
+                </div>
+                <div class="guarantees__item">
+                    <div class="guarantees__item-img">
+                        <img src="./img/guarantees/guarantees1.png" alt="#">
+                    </div>
+                    <p class='guarantees__item-header'>Лучшие поставщики</p>
+                    <p class='guarantees__item-text'>Мы работаем с самыми надежными и известными операторами доставки. Проверка надежности курьерской компании, экспертная оценка качества предоставляемых услуг</p>
+                    <button class='guarantees__item-btn'>Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='faq'>
+        <div class="container">
+            <h2 class='faq__header'>Остались сомнения?</h2>
+            <div class="faq__items">
+                <div class="faq__item">
+                    <div id='opn1' class="faq__item-block close">
+                        <p class='faq__item-text'>
+                            Вы не занимаетесь такими простыми грузами, как мебель
+                        </p>
+                        <div class='faq__item-arrov'>
+                            <img id='1' class='faq__item-arrov-open' src="./img/arrow-down.png" alt="arrow">
+                        </div>
+                    </div>
+                    <div id='el1' class="faq__item-block-open hidden">
+                        <p>Это не так. Вам нужно заполнить и подписать всего один документ, который распространяется на все службы доставки, которые будут доставлять вашу посылку</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div id='opn2' class="faq__item-block close">
+                        <p class='faq__item-text'>
+                            Вы не занимаетесь такими простыми грузами, как мебель
+                        </p>
+                        <div class='faq__item-arrov'>
+                            <img id='2' class='faq__item-arrov-open' src="./img/arrow-down.png" alt="arrow">
+                        </div>
+                    </div>
+                    <div id='el2' class="faq__item-block-open hidden">
+                        <p>Это не так. Вам нужно заполнить и подписать всего один документ, который распространяется на все службы доставки, которые будут доставлять вашу посылку</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div id='opn3' class="faq__item-block close">
+                        <p class='faq__item-text'>
+                            Вы не занимаетесь такими простыми грузами, как мебель
+                        </p>
+                        <div class='faq__item-arrov'>
+                            <img id='3' class='faq__item-arrov-open' src="./img/arrow-down.png" alt="arrow">
+                        </div>
+                    </div>
+                    <div id='el3' class="faq__item-block-open hidden">
+                        <p>Это не так. Вам нужно заполнить и подписать всего один документ, который распространяется на все службы доставки, которые будут доставлять вашу посылку</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div id='opn4' class="faq__item-block close">
+                        <p class='faq__item-text'>
+                            Вы не занимаетесь такими простыми грузами, как мебель
+                        </p>
+                        <div class='faq__item-arrov'>
+                            <img id='4' class='faq__item-arrov-open' src="./img/arrow-down.png" alt="arrow">
+                        </div>
+                    </div>
+                    <div id='el4' class="faq__item-block-open hidden">
+                        <p>Это не так. Вам нужно заполнить и подписать всего один документ, который распространяется на все службы доставки, которые будут доставлять вашу посылку</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div id='opn5' class="faq__item-block close">
+                        <p class='faq__item-text'>
+                            Вы не занимаетесь такими простыми грузами, как мебель
+                        </p>
+                        <div class='faq__item-arrov'>
+                            <img id='5' class='faq__item-arrov-open' src="./img/arrow-down.png" alt="arrow">
+                        </div>
+                    </div>
+                    <div id='el5' class="faq__item-block-open hidden">
+                        <p>Это не так. Вам нужно заполнить и подписать всего один документ, который распространяется на все службы доставки, которые будут доставлять вашу посылку</p>
+                    </div>
+                </div>
+                <div class="faq__item">
+                    <div id='opn6' class="faq__item-block close">
+                        <p class='faq__item-text'>
+                            Вы не занимаетесь такими простыми грузами, как мебель
+                        </p>
+                        <div class='faq__item-arrov'>
+                            <img id='6' class='faq__item-arrov-open' src="./img/arrow-down.png" alt="arrow">
+                        </div>
+                    </div>
+                    <div id='el6' class="faq__item-block-open hidden">
+                        <p>Это не так. Вам нужно заполнить и подписать всего один документ, который распространяется на все службы доставки, которые будут доставлять вашу посылку</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class='partners'>
+        <div class="container">
+            <div class="swiper partners-slider">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/partners/bringo.png" alt="bringo">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/partners/cdek.png" alt="cdek">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/partners/city_express.png" alt="city">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/partners/dpd.png" alt="dpd">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/partners/pony.png" alt="pony">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/partners/spsr.png" alt="spsr">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/partners/tnt.png" alt="tnt">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/partners/ups.png" alt="ups">
+                    </div>
+                </div>
+
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+
+              </div>
+        </div>
+    </section>
+    <footer class='footer'>
+        <div class="container">
+            <div class="footer__box-1st">
+                <div class="footer__text">
+                    <h2 class='footer__text-h2'>Остались вопросы?</h2>
+                </div>
+                <form class="footer__form">
+                    <input class='footer__form-input' type="text" placeholder="Ваш телефон">
+                    <button class='footer__form-btn' type='submit'>Заказать звонок</button>
+                    <!-- <label class='footer__form-label' for="aply">
+                        <input class='footer__form-check' type="checkbox" name="aply" id="aply">
+                        Я согласен на обработку персональных данных
+                    </label> -->
+                </form>
+            </div>
+            <hr>
+            <div class="footer__box-2d">
+                <div class="header__top">
+                    <div class="logo">
+                        <img src="./img/footer-logo.png" alt="logo">
+                    </div>
+                    <nav class='header__nav'>
+                        <ul class='nav__block footer-nav'>
+                            <li class='nav__link'>Главная</li>
+                            <li class='nav__link'>Описание</li>
+                            <li class='nav__link'>Преимущества</li>
+                            <li class='nav__link'>Отзывы</li>
+                            <li class='nav__link'>Партнеры</li>
+                            <li class='nav__link'>Гарантии</li>
+                            <li class='nav__link'>FAQ</li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <hr>
+            <div class="footer__bot">
+                <p>&copy Созданно с душой 2022</p>
+                <div class="footer__bot-social">
+                    <img src="./img/social/vk.png" alt="vk">
+                    <img src="./img/social/insta.png" alt="insta">
+                    <img src="./img/social/fb.png" alt="fb">
+                </div>
+                <p>При поддержке дизайнеров GB</p>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
