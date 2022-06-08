@@ -19,6 +19,9 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+.button:hover {
+  box-shadow: 0px 4px 15px rgba(27, 170, 235, 0.45);
+}
 .modal {
   overflow: auto;
   width: 440px;
@@ -136,6 +139,9 @@ header {
   text-transform: uppercase;
   cursor: pointer;
 }
+.header__content-btn:hover {
+  box-shadow: 0px 4px 15px rgba(27, 170, 235, 0.45);
+}
 .about-us {
   background: #F7F7F7;
   padding-top: 90px;
@@ -168,6 +174,9 @@ header {
   font-size: 16px;
   text-transform: uppercase;
   cursor: pointer;
+}
+.about-us__btn:hover {
+  box-shadow: 0px 4px 15px rgba(27, 170, 235, 0.45);
 }
 .steps {
   padding-top: 69px;
@@ -219,6 +228,9 @@ header {
   font-size: 16px;
   text-transform: uppercase;
   cursor: pointer;
+}
+.send__btn:hover {
+  box-shadow: 0px 4px 15px rgba(27, 170, 235, 0.45);
 }
 .call-us {
   background: #008DCD;
@@ -273,6 +285,9 @@ header {
   margin-bottom: 16px;
   background: #FFCC00;
   color: #000;
+}
+.call-us__form-btn:hover {
+  box-shadow: 0px 4px 20px rgba(255, 204, 0, 0.55);
 }
 .call-us__form-label {
   font-size: 10px;
@@ -417,6 +432,9 @@ header {
   text-transform: uppercase;
   cursor: pointer;
 }
+.guarantees__item-btn:hover {
+  box-shadow: 0px 4px 15px rgba(27, 170, 235, 0.45);
+}
 .faq {
   background: #94D1EC;
   padding-top: 64px;
@@ -517,6 +535,9 @@ hr {
   font-size: 16px;
   text-transform: uppercase;
   cursor: pointer;
+}
+.footer__form-btn:hover {
+  box-shadow: 0px 4px 15px rgba(27, 170, 235, 0.45);
 }
 .footer__bot {
   display: flex;
