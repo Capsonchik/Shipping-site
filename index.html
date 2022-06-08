@@ -37,7 +37,7 @@
             <div class="header__content">
                 <h1 class="header__content-h1">Придумайте что отправить</h1>
                 <p class="header__content-p">А посылка доедет сама</p>
-                <button class="header__content-btn">Отправить посылку</button>
+                <button class="header__content-btn call-btn">Отправить посылку</button>
             </div>
         </div>
     </header>
@@ -51,7 +51,7 @@
                     <h1 class="about-us__h1">Мы – агрегатор служб доставки</h1>
                     <p class="about-us__p">С нами удобно вам, вашим клиентам и курьерским службам.
                         Для вас наши услуги бесплатны, так как мы получаем бонусы от служб доставок за предоставленный объем заказов, а вы получаете надежный сервис в подарок!</p>
-                    <button class="about-us__btn">Отправить посылку</button>
+                    <button class="about-us__btn call-btn">Отправить посылку</button>
                 </div>
             </div>
         </div>
@@ -83,7 +83,7 @@
     <section class='send'>
         <div class="container send__box">
             <h2 class='send__header'>Мы берем все заботы по доставке на себя!</h2>
-            <button class='send__btn'>отпарвить посылку</button>
+            <button class='send__btn call-btn'>отпарвить посылку</button>
         </div>
     </section>
     <section class='call-us'>
@@ -94,7 +94,7 @@
             </div>
             <div class="call-us__form">
                 <input class='call-us__form-input' type="text" placeholder="Ваш телефон">
-                <button class='call-us__form-btn' type='submit'>Заказать звонок</button>
+                <button class='call-us__form-btn call-btn' type='submit'>Заказать звонок</button>
                 <label class='call-us__form-label' for="aply">
                     <input class='call-us__form-check' type="checkbox" name="aply" id="aply">
                     Я согласен на обработку персональных данных
@@ -370,7 +370,7 @@
                 </div>
                 <form class="footer__form">
                     <input class='footer__form-input' type="text" placeholder="Ваш телефон">
-                    <button class='footer__form-btn' type='submit'>Заказать звонок</button>
+                    <button class='footer__form-btn call-btn' type='submit'>Заказать звонок</button>
                     <!-- <label class='footer__form-label' for="aply">
                         <input class='footer__form-check' type="checkbox" name="aply" id="aply">
                         Я согласен на обработку персональных данных
@@ -408,6 +408,23 @@
             </div>
         </div>
     </footer>
+
+    <div class="modal-block hidden">
+        <div class="modal">
+            <p class='close-btn'>
+                <img src="./img/close.png" alt="close">
+            </p>
+            <div class="modal__content">
+                <h3>Оставьте заявку, и мы Вам перезвоним!</h3>
+                <form class='modal__content-form' action="#">
+                    <input type="text" name="name" id="name" placeholder="Ваше имя">
+                    <input type="phone" name="phone" id="phone" placeholder='Ваш телефон'>
+                    <button class='call-btn' type='submit'>Заказать звонок</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    
 
 
 

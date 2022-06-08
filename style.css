@@ -19,6 +19,65 @@
   text-transform: uppercase;
   cursor: pointer;
 }
+.modal {
+  overflow: auto;
+  width: 440px;
+  height: 336px;
+  background: #FFFFFF;
+  border-radius: 32px;
+  z-index: 10;
+  padding: 14px;
+}
+.modal-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.7);
+}
+.modal p {
+  text-align: right;
+}
+.modal__content {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.modal__content h3 {
+  margin-bottom: 30px;
+}
+.modal__content-form {
+  display: flex;
+  flex-direction: column;
+}
+.modal__content-form input {
+  width: 359px;
+  height: 48px;
+  padding-left: 20px;
+  border: 1px solid #008DCD;
+  border-radius: 30px;
+  margin-bottom: 13px;
+}
+.modal__content-form input::placeholder {
+  color: #008DCD;
+}
+.modal__content-form button {
+  width: 360px;
+  height: 48px;
+  background: #008DCD;
+  border-radius: 30px;
+  color: white;
+  border: 0;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0 auto;

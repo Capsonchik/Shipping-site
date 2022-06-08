@@ -1,3 +1,7 @@
+const callBtn = document.querySelectorAll('.call-btn')
+const modal = document.querySelector('.modal-block')
+const closeBtn = document.querySelector('.close-btn')
+
 const swiper = new Swiper('.swiper', {
     loop: true,
     slidesPerView: 2,
@@ -33,3 +37,13 @@ const swiper = new Swiper('.swiper', {
     },
 
   });
+
+  callBtn.forEach(el => {
+      el.addEventListener('click', () => {
+          modal.classList.remove('hidden')
+      })
+  })
+
+  closeBtn.addEventListener('click', () => {
+      modal.classList.add('hidden')
+  })
