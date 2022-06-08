@@ -7,6 +7,7 @@
 
 * Figma
 * Flex
+* JS
 * Swiper JS
 
 **Figma**
