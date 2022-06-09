@@ -84,7 +84,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0 auto;
-  max-width: 1440px;
+  width: 1440px;
 }
 .container {
   max-width: 1160px;
@@ -546,4 +546,130 @@ hr {
   margin-top: 20px;
   justify-content: space-between;
   align-items: baseline;
+  cursor: pointer;
+}
+@media (max-width: 769px) {
+  body {
+    width: 100%;
+  }
+  .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .logo img {
+    width: 100px;
+    height: 29px;
+  }
+  .nav__block li {
+    font-size: 14px;
+    margin-right: 25px;
+  }
+  .header__content-h1 {
+    font-size: 29px;
+  }
+  .header__content-p {
+    font-size: 24px;
+  }
+  .header__content-btn {
+    width: 280px;
+    font-size: 16px;
+  }
+  .about-us__block {
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+  .about-us__img {
+    margin: 0;
+  }
+  .about-us img {
+    width: 398px;
+  }
+  .about-us__h1 {
+    font-size: 20px;
+  }
+  .about-us__p {
+    font-size: 14px;
+  }
+  .about-us__btn {
+    width: 280px;
+    font-size: 16px;
+  }
+  .steps__item img {
+    width: 281px;
+  }
+  .steps__item-name {
+    font-size: 26px;
+    font-weight: 600;
+  }
+  .steps__item-text {
+    font-size: 16px;
+  }
+  .send__header {
+    font-size: 28px;
+  }
+  .call-us__text-h2 {
+    font-size: 28px;
+  }
+  .call-us__text-p {
+    font-size: 14px;
+  }
+  .call-us__form-input {
+    width: 279px;
+    height: 48px;
+  }
+  .call-us__form-btn {
+    width: 279px;
+    height: 48px;
+  }
+  .advantages__item {
+    width: 100px;
+  }
+  .item__logo {
+    width: 100px;
+    height: 100px;
+  }
+  .item__logo img {
+    width: 50%;
+    height: auto;
+  }
+  .item__text {
+    font-size: 12px;
+  }
+  .guarantees__item {
+    width: 223px;
+  }
+  .guarantees__item-btn {
+    width: 220px;
+  }
+  .guarantees__item-img {
+    width: 100px;
+    height: 100px;
+  }
+  .guarantees__item-img img {
+    width: 50%;
+    height: auto;
+  }
+  .guarantees__item-header {
+    font-size: 16px;
+  }
+  .guarantees__item-text {
+    font-size: 16px;
+  }
+  .faq__item {
+    width: 100%;
+  }
+  .footer__form {
+    display: flex;
+    justify-content: space-around;
+  }
+  .footer__form-input {
+    width: 220px;
+    margin-right: 10px;
+  }
+  .footer__form-btn {
+    width: 190px;
+  }
+  .footer__text-h2 {
+    font-size: 25px;
+  }
 }
