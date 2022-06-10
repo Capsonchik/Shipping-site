@@ -673,3 +673,66 @@ hr {
     font-size: 25px;
   }
 }
+@media (max-width: 375px) {
+  header {
+    background-image: url(img/mob-bg-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 288px;
+  }
+  .container {
+    width: 100%;
+  }
+  .header__nav {
+    display: none;
+  }
+  .header__content {
+    display: none;
+  }
+  .about-us {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .about-us__block {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-us__img img {
+    width: 278px;
+  }
+  .about-us__btn {
+    width: 100%;
+  }
+  .steps__item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .steps__item img {
+    align-self: center;
+  }
+  .send__box {
+    flex-direction: column;
+  }
+  .send__btn {
+    margin-top: 9px;
+    width: 100%;
+  }
+  .call-us__box {
+    flex-direction: column;
+  }
+  .call-us__form {
+    margin-top: 20px;
+  }
+  .advantages__item {
+    width: 30%;
+    margin-bottom: 15px;
+  }
+  .advantages__items {
+    flex-wrap: wrap;
+  }
+  .swiper-arrow {
+    display: none;
+  }
+}
