@@ -601,6 +601,9 @@ hr {
   body {
     width: 100%;
   }
+  header {
+    background-image: url(img/tablet-bg.png);
+  }
   .container {
     padding-left: 10px;
     padding-right: 10px;
@@ -631,7 +634,7 @@ hr {
     margin: 0;
   }
   .about-us img {
-    width: 398px;
+    width: 100%;
   }
   .about-us__h1 {
     font-size: 20px;
@@ -644,7 +647,7 @@ hr {
     font-size: 16px;
   }
   .steps__item img {
-    width: 281px;
+    width: 100%;
   }
   .steps__item-name {
     font-size: 26px;
@@ -685,10 +688,10 @@ hr {
     font-size: 12px;
   }
   .guarantees__item {
-    width: 223px;
+    width: 30%;
   }
   .guarantees__item-btn {
-    width: 220px;
+    width: 100%;
   }
   .guarantees__item-img {
     width: 100px;
@@ -720,6 +723,11 @@ hr {
   }
   .footer__text-h2 {
     font-size: 25px;
+  }
+}
+@media (max-width: 730px) {
+  .header__nav {
+    display: none;
   }
 }
 @media (max-width: 376px) {

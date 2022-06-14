@@ -712,6 +712,10 @@ hr {
         width: 100%;
     }
 
+    header {
+        background-image: url(img/tablet-bg.png);
+    }
+
     .container {
         padding-left: 10px;
         padding-right: 10px;
@@ -752,7 +756,7 @@ hr {
     }
 
     .about-us img {
-        width: 398px;
+        width: 100%;
     }
     .about-us__h1 {
         font-size: 20px;
@@ -770,7 +774,7 @@ hr {
     //STEPS
 
     .steps__item img {
-        width: 281px;
+        width: 100%;
     }
 
     .steps__item-name {
@@ -831,11 +835,11 @@ hr {
     // GUARANTES
 
     .guarantees__item {
-        width: 223px;
+        width: 30%;
     }
 
     .guarantees__item-btn {
-        width: 220px;
+        width: 100%;
     }
 
     .guarantees__item-img {
@@ -883,6 +887,12 @@ hr {
     }
 
 
+}
+
+@media(max-width: 730px) {
+    .header__nav {
+        display: none;
+    }
 }
 
 @media(max-width: 376px) {
