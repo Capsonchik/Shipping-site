@@ -141,6 +141,24 @@ header {
     margin: 0;
 }
 
+.burger {
+    display: none;
+}
+
+.burger span::before{
+    content: '';
+    display: flex;
+    flex-direction: column;
+    width: 40px;
+    height: 2px;
+    background-color: white;
+    margin-bottom: 8px;
+}
+
+.burger span::before:last-child{
+    margin-bottom: 0;
+}
+
 .header__content-h1 {
     margin-top: 88px;
     color: white;
@@ -814,8 +832,13 @@ hr {
 
     // ADVANTAGES
 
+    .advantages__items {
+        flex-wrap: wrap;
+    }
+
     .advantages__item {
         width: 100px;
+        margin-bottom: 10px;
     }
 
     .item__logo {
@@ -891,6 +914,38 @@ hr {
 
 @media(max-width: 730px) {
     .header__nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .header__top {
+        justify-content: space-between;
+    }
+}
+
+
+@media(max-width: 605px) {
+
+    .guarantees__item {
+        width: 47%;
+    }
+
+    .guarantees__items .guarantees__item:last-child {
+        display: none;
+    } 
+
+    .footer__box-1st {
+        flex-direction: column;
+    }
+
+    .footer__text {
+        margin-bottom: 7px;
+    }
+
+    .footer__bot p:last-child {
         display: none;
     }
 }
