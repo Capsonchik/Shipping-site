@@ -855,9 +855,6 @@ hr {
   .advantages__items {
     flex-wrap: wrap;
   }
-  .swiper-arrow {
-    display: none;
-  }
   .guarantees {
     display: none;
   }

@@ -4,7 +4,7 @@ const closeBtn = document.querySelector('.close-btn')
 
 const swiper = new Swiper('.swiper', {
     loop: true,
-    slidesPerView: 2,
+    slidesPerView: 1,
     spaceBetween: 30,
    
     // Navigation arrows
@@ -13,9 +13,9 @@ const swiper = new Swiper('.swiper', {
       prevEl: '.swiper-button-prev',
     },
     breakpoints: {
-        374: {
-            slidesPerView: 1,
-        }
+        760: {
+            slidesPerView: 2,
+        },
     }
 
   });
@@ -33,13 +33,18 @@ const swiper = new Swiper('.swiper', {
 
   const swiperPartners = new Swiper('.partners-slider', {
     loop: true,
-    slidesPerView: 6,
+    slidesPerView: 4,
     // spaceBetween: 10,
    
     navigation: {
       nextEl: '.swiper-button-next',
       prevEl: '.swiper-button-prev',
     },
+    breakpoints: {
+        760: {
+            slidesPerView: 6,
+        },
+    }
 
   });
 
