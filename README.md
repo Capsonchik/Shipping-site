@@ -1,5 +1,7 @@
 # Проект: Shipping Site
 
+[![Screenshot-3.png](https://i.postimg.cc/YCCVgQg4/Screenshot-3.png)](https://postimg.cc/F7wDXdTm)
+
 ## Описание
 Лэндинг компании по доставке товаров
 
